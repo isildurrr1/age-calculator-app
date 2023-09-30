@@ -6,7 +6,7 @@ const DisplayStyled = styled.div`
   margin: 48px 10px 10px 0;
 `;
 
-const Title = styled.span`
+const Title = styled.h1`
   font-size: 102px;
   font-style: italic;
   line-height: 113px;
