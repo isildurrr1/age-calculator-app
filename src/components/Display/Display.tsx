@@ -6,7 +6,7 @@ const DisplayStyled = styled.div`
   margin: 48px 10px 10px 0;
 `;
 
-const Title = styled.h1`
+const Title = styled.h2`
   font-size: 102px;
   font-style: italic;
   line-height: 113px;
@@ -35,6 +35,7 @@ const Display: React.FC<DisplayProps> = ({ result }) => {
 
   return (
     <DisplayStyled>
+      <h1> </h1>
       <Title>
         <Number>
           {`${currYear !== 0 ? currYear : '- -'}`}
