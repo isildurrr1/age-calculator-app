@@ -28,6 +28,7 @@ function App() {
   return (
     <AppContainer>
       <Container>
+        <h1 style={{ marginTop: '-35px', color: 'hsl(0, 0%, 100%)' }}>Heading</h1>
         <Form setResult={setResult} />
         <Display result={result} />
       </Container>
