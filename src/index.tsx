@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <h1 style={{ marginTop: '-48px', color: 'hsl(0, 0%, 94%)' }}>Heading</h1>
     <App />
   </React.StrictMode>
 );

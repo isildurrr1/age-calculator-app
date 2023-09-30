@@ -35,7 +35,6 @@ const Display: React.FC<DisplayProps> = ({ result }) => {
 
   return (
     <DisplayStyled>
-      <h1 style={{display: 'none'}}>Heading</h1>
       <Title>
         <Number>
           {`${currYear !== 0 ? currYear : '- -'}`}
